@@ -1,0 +1,12 @@
+.contato {
+  color: #FFF;
+  margin-top: 30px;
+  background-color: #256670;
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto; /* centraliza a div horizontalmente */
+  width:500px; /* limita a largura máxima da div */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
