@@ -29,12 +29,13 @@
     <h1>Login</h1>
     <form>
 		<label for="usuario">Nome de usuário:</label><br>
-		<input type="text" id="usuario" name="usuario"><br>
+		<input type="text" id="usuario" name="usuario" required><br>
 		<label for="senha">Senha:</label><br>
-		<input type="password" id="senha" name="senha"><br><br>
-		<input type="submit" value="Entrar">
+		<input type="password" id="senha" name="senha" required><br><br>
+		<input type="submit" id="entrar" value="Entrar" onclick="validarForm()">
 	</form>
     <p>Ainda não possui uma conta? <a href="./form2.html" id="cliAq">Clique aqui</a></p>
 </div>
+    <script src="../JS/validacaoForm1.js"></script>
 </body>
 </html>
