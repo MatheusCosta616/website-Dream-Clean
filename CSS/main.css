@@ -113,6 +113,13 @@ a{
   font-size: 15px;
 }
 
+.txtPadr3{
+	margin-top: -30px;
+	display: inline-block;
+	color:#FFF;
+	font-size: 22px;
+  }
+
 h2{
   font-size: 32px;
   color:#ADE28A;
